@@ -15,7 +15,7 @@ wall_thickness = 10
 MARGIN = HEIGHT/50
 gravity = 0.15
 bounce_stop = 1
-retention = 0.6
+
 
 def draw_walls():
     top = pygame.draw.line(screen, "white", (MARGIN, MARGIN),(WIDTH-MARGIN, MARGIN), wall_thickness)
@@ -63,7 +63,7 @@ class Ball:
         self.y_pos += self.y_speed
         self.x_pos += self.x_speed
 
-ball1 =  Ball(WIDTH/2, 3*MARGIN, HEIGHT/100, "white", 100, .9, 0, 0, 1)
+ball1 =  Ball(WIDTH/2, 3*MARGIN, HEIGHT/100, "white", 100, .7, 0, 0, 1)
 # main game loop
 run = True
 while run:

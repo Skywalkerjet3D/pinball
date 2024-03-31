@@ -59,6 +59,10 @@ class Ball:
                     self.y_speed = 0
         return self.y_speed
 
+    def collision(self):
+        if self.y_pos and self.x_pos = wand:
+            einfallswinkel = ausfallswinkel
+
     def update_pos(self):
         self.y_pos += self.y_speed
         self.x_pos += self.x_speed
